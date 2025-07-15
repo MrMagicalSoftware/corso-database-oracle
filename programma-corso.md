@@ -8,6 +8,12 @@ comando da copiare
 ```
 
 
+| Intestazione 1 | Intestazione 2 |
+|----------------|----------------|
+| Voce 1        | Voce 2        |
+| Voce 3        | Voce 4        |
+
+
 
 
 
