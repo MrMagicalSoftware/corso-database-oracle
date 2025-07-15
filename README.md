@@ -29,3 +29,9 @@ docker stop NOME_DEL_CONTAINER_DA_FERMARE
 
 ```
 
+
+**INSTALLARE ORACLE DATABASE SU WIN/MAC/LINUX**
+```
+ docker run -d -p 1521:1521 -e ORACLE_PASSWORD=wow123456 gvenzl/oracle-free
+```
+
