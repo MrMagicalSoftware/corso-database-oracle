@@ -29,7 +29,7 @@ Interfaccia grafica
 Concetti di base di networking: IP statici e dinamici, server DHCP, configurazione IP, netmask, e broadcast
 Esercizi: installazione di Linux, di una piccola rete aziendale e dei servizi di base correlati • Amministrazione e installazione software:
 Definizione di un nuovo utente e nuovo gruppo
-Installazione e disinstallazione di package RPM
+**installazione e disinstallazione di package RPM**
 Installazione di programmi tar.gz.
 Utilità per la gestione di software installati
 Esercizi • I processi
