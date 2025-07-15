@@ -42,4 +42,23 @@ https://www.oracle.com/it/database/sqldeveloper/technologies/download/
 
 
 
+NOTA : I NOMI UTENTE IN MAIUSCOLO : 
+
+<img width="1909" height="818" alt="Screenshot 2025-07-15 alle 17 28 25" src="https://github.com/user-attachments/assets/0fafbf16-b9ca-4f80-ab07-8ed75f84715d" />
+
+
+<img width="1090" height="657" alt="Screenshot 2025-07-15 alle 17 28 31" src="https://github.com/user-attachments/assets/bd377b36-50ac-451a-aff2-f051bff15715" />
+
+
+<img width="1911" height="774" alt="Screenshot 2025-07-15 alle 17 28 40" src="https://github.com/user-attachments/assets/30ebf739-da11-4954-bb46-fccde0c9f336" />
+
+<img width="1907" height="784" alt="Screenshot 2025-07-15 alle 17 28 47" src="https://github.com/user-attachments/assets/5a1fcd0b-9d8a-4e66-a80c-3809daf82a42" />
+
+
+
+
+
+
+
+
 
