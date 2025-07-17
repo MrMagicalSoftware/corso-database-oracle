@@ -94,6 +94,79 @@ Per ogni dipendente devono essere registrate le seguenti informazioni:
 
 
 
+---
+
+
+###  **Esercizio – Archivio Film di una Videoteca**
+
+La videoteca “CineMania” vuole creare un database per gestire l’archivio dei **film** disponibili per il noleggio.
+
+Per ogni film devono essere memorizzate le seguenti informazioni:
+
+* Un **codice identificativo** univoco del film
+* Il **titolo del film**
+* Il **nome del regista**
+* L’**anno di uscita**
+* La **durata** del film in minuti
+* Il **genere** (es. commedia, azione, drammatico, horror, ecc.)
+* Il **prezzo di noleggio**
+* L’**indicazione se è disponibile o no**
+* Il **numero di copie disponibili**
+* La **lingua originale**
+
+---
+
+
+
+
+---
+
+
+
+
+
+
+###  **Esercizio – Registro Prenotazioni Alberghiere**
+
+L’hotel “Stella Marina” vuole creare un sistema per registrare le **prenotazioni** effettuate dai clienti.
+
+Per ogni **prenotazione** si vogliono memorizzare le seguenti informazioni:
+
+* Un **codice identificativo** della prenotazione (univoco)
+* Il **nome** e il **cognome** del cliente
+* La **data di arrivo**
+* La **data di partenza**
+* Il **numero di ospiti**
+* Il **tipo di camera** richiesta (singola, doppia, tripla, suite)
+* Se il cliente ha richiesto la **colazione inclusa** (sì/no)
+* L’**importo totale della prenotazione**
+* L’**email di contatto** del cliente
+* Lo **stato della prenotazione** (confermato, annullato, in attesa)
+
+---
+
+
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
