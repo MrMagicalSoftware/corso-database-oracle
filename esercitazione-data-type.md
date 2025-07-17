@@ -162,8 +162,23 @@ Per ogni **prenotazione** si vogliono memorizzare le seguenti informazioni:
 
 ---
 
+```
+CREATE TABLE PRENOTAZIONI (
+  ID_PRENOTAZIONE      NUMBER(6) PRIMARY KEY,
+  NOME_CLIENTE          VARCHAR2(50) NOT NULL,
+  COGNOME_CLIENTE       VARCHAR2(50) NOT NULL,
+  DATA_ARRIVO           DATE NOT NULL,
+  DATA_PARTENZA         DATE NOT NULL,
+  NUMERO_OSPITI         NUMBER(2) CHECK (NUMERO_OSPITI > 0),
+  TIPO_CAMERA           VARCHAR2(20) CHECK (TIPO_CAMERA IN ('singola', 'doppia', 'tripla', 'suite')),
+  COLAZIONE_INCLUSA     CHAR(1) DEFAULT 'N' CHECK (COLAZIONE_INCLUSA IN ('S', 'N')),
+  IMPORTO_TOTALE        NUMBER(8,2) CHECK (IMPORTO_TOTALE >= 0),
+  EMAIL_CLIENTE         VARCHAR2(100),
+  STATO                 VARCHAR2(20) DEFAULT 'in attesa'
+    CHECK (STATO IN ('confermato', 'annullato', 'in attesa'))
+);
 
-
+```
 ---
 
 
