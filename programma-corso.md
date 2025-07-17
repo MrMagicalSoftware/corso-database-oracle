@@ -3,9 +3,6 @@
 ### Programma del corso academy 
 
 
-```
-comando da copiare 
-```
 
 
 # Academy Oracle Database
