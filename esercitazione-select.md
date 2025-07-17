@@ -28,7 +28,7 @@ FROM Customers;
 
 ```
 SELECT *
-FROM Customers;
+FROM Customers
 WHERE Country = "Italy";
 ```
 
@@ -109,3 +109,14 @@ SELECT *
 FROM Customers
 WHERE City = Country 
 ```
+
+
+12 . Contare il numero di clienti italiani 
+
+
+```
+SELECT COUNT(*) 
+FROM Customers
+WHERE Country = "Italy";
+```
+
