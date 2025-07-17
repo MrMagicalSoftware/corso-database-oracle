@@ -76,8 +76,21 @@ Per ogni dipendente devono essere registrate le seguenti informazioni:
 
 ---
 
-
-
+```
+ CREATE TABLE DIPENDENTI (
+  ID_DIPENDENTE        NUMBER(5) PRIMARY KEY,
+  NOME                 VARCHAR2(50) NOT NULL,
+  COGNOME              VARCHAR2(50) NOT NULL,
+  CODICE_FISCALE       CHAR(16) UNIQUE NOT NULL,
+  DATA_ASSUNZIONE      DATE NOT NULL,
+  RUOLO                VARCHAR2(40),
+  DIPARTIMENTO         VARCHAR2(40),
+  TELEFONO_AZIENDALE   VARCHAR2(15),
+  EMAIL_AZIENDALE      VARCHAR2(100) UNIQUE,
+  STIPENDIO_LORDO      NUMBER(8,2) CHECK (STIPENDIO_LORDO >= 0),
+  IN_SERVIZIO          CHAR(1) DEFAULT 'S' CHECK (IN_SERVIZIO IN ('S', 'N'))
+);
+```
 
 
 
