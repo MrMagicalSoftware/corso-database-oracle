@@ -49,15 +49,63 @@ FROM Customers
 ORDER BY CustomerName ASC;
 ```
 
-6. Visualizza i clienti che NON vivono in Francia. (SIMBOLO DIVERSO !=)
-7. Visualizza i clienti che vivono in Italia o in Germania.
-8. Visualizza i clienti il cui nome inizia con 'A'. (CERCARE SU GOOGLE LIKE)
-9. Visualizza i clienti la cui città termina con 'o'.
-10. Visualizza i clienti la cui città contiene esattamente 5 lettere. (CERCARE FUNZIONE LENGTH)
-11. Visualizza i clienti che hanno lo stesso nome di città e paese (solo se coincidono).
+6. Visualizza i clienti che NON vivono in Francia. (SIMBOLO DIVERSO <>)
 
+```
+SELECT CustomerName
+FROM Customers
+WHERE Country <> "France"
+```
+
+
+
+
+7. Visualizza i clienti che vivono in Italia o in Germania.
 
 
 ```
-SELECT * FROM Customers;
+SELECT CustomerName
+FROM Customers
+WHERE Country = "Italy" or Country ="Germany" ; 
+```
+
+
+
+8. Visualizza i clienti il cui nome inizia con 'A'. (CERCARE SU GOOGLE LIKE)
+
+```
+SELECT CustomerName
+FROM Customers
+WHERE CustomerName like "A%" ; 
+```
+
+
+9. Visualizza i clienti la cui città termina con 'o'.
+
+```
+SELECT CustomerName
+FROM Customers
+WHERE CustomerName like "%o" ; 
+```
+
+
+
+
+10. Visualizza i clienti la cui città contiene esattamente 5 lettere. (CERCARE FUNZIONE LENGTH)
+
+
+```
+SELECT *
+FROM Customers
+WHERE LEN(City) = 5 ; 
+```
+
+
+11. Visualizza i clienti che hanno lo stesso nome di città e paese (solo se coincidono).
+
+
+```
+SELECT *
+FROM Customers
+WHERE City = Country 
 ```
