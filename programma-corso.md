@@ -1,9 +1,4 @@
 
-# Programma del corso academy 
-### Programma del corso academy 
-
-
-
 
 # Academy Oracle Database
 
