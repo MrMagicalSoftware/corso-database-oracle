@@ -116,6 +116,23 @@ Per ogni film devono essere memorizzate le seguenti informazioni:
 
 ---
 
+```
+
+CREATE TABLE ARCHIVIO_FILM (
+
+  CODICE_IDENTIFICATIVO          NUMBER(10) PRIMARY KEY,
+  TITOLO                         VARCHAR2(50) NOT NULL,
+  NOME_REGISTA                   VARCHAR2(50) NOT NULL,
+  ANNO_DI_USCITA                 DATE,
+  DURATA                         NUMBER(3),
+  GENERE                         VARCHAR2(50),
+  PREZZO_NOLEGGIO                NUMBER(5, 2 ) CHECK (PREZZO_NOLEGGIO > 0 ),
+  DISPONIBILE                    CHAR(1) DEFAULT 'S' CHECK (DISPONIBILE IN ('S', 'N')),
+  COPIE_DISPONIBILI              NUMBER(3),
+  LINGUA                         VARCHAR2(40)
+
+);
+```
 
 
 
