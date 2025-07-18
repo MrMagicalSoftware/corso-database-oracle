@@ -204,10 +204,22 @@ Per ogni **veicolo** devono essere memorizzate le seguenti informazioni:
 
 ---
 
+```
+CREATE TABLE VEICOLI (
+  ID_VEICOLO            NUMBER(6) PRIMARY KEY,
+  TARGA                 VARCHAR2(10) UNIQUE NOT NULL,
+  MARCA                 VARCHAR2(30) NOT NULL,
+  MODELLO               VARCHAR2(30) NOT NULL,
+  ANNO_IMMATRICOLAZIONE NUMBER(4) CHECK (ANNO_IMMATRICOLAZIONE >= 1980),
+  ALIMENTAZIONE         VARCHAR2(10)
+    CHECK (ALIMENTAZIONE IN ('benzina', 'diesel', 'elettrico', 'ibrido', 'GPL')),
+  CHILOMETRAGGIO         NUMBER(7) CHECK (CHILOMETRAGGIO >= 0),
+  NOME_PROPRIETARIO      VARCHAR2(60) NOT NULL,
+  TELEFONO_PROPRIETARIO  VARCHAR2(15),
+  IN_RIPARAZIONE         CHAR(1) DEFAULT 'N' CHECK (IN_RIPARAZIONE IN ('S', 'N'))
+);
 
-
-
-
+```
 ---
 
 
