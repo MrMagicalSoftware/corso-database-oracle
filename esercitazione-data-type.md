@@ -183,8 +183,32 @@ CREATE TABLE PRENOTAZIONI (
 
 
 
+---
+
+###  **Esercizio – Archivio Veicoli di un’Officina Meccanica**
+
+L’officina “Motori\&Service” vuole creare un archivio per registrare i **veicoli dei clienti** che vengono portati per assistenza o manutenzione.
+
+Per ogni **veicolo** devono essere memorizzate le seguenti informazioni:
+
+* Un **codice identificativo** del veicolo (univoco)
+* La **targa**
+* La **marca** (es. Fiat, BMW, Toyota, ecc.)
+* Il **modello**
+* L’**anno di immatricolazione**
+* Il **tipo di alimentazione** (benzina, diesel, elettrico, ibrido, GPL)
+* Il **chilometraggio attuale**
+* Il **nome del proprietario**
+* Il **numero di telefono** del proprietario
+* L’**indicazione se il veicolo è ancora in riparazione**
+
+---
 
 
+
+
+
+---
 
 
 
