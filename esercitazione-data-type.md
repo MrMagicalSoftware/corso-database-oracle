@@ -224,8 +224,29 @@ CREATE TABLE VEICOLI (
 
 
 
+**ESERCITAZIONE QUERY SELECT ** 
 
 
+Visualizzare tutte le informazioni dei veicoli.
+Visualizzare solo le targhe e i modelli dei veicoli.
+Elencare i veicoli immatricolati dopo il 2015.
+Mostrare i veicoli a benzina.
+Visualizzare i veicoli in riparazione.
+Elencare i veicoli con chilometraggio superiore a 100.000 km.
+Visualizzare i veicoli ordinati per anno di immatricolazione (dal più recente al più vecchio).
+Elencare i veicoli della marca 'Fiat'.
+
+Visualizzare i veicoli immatricolati tra il 2010 e il 2020.
+Trovare tutti i veicoli con il modello che inizia con la lettera 'P'.
+Contare il numero totale di veicoli presenti.
+
+Calcolare il chilometraggio medio di tutti i veicoli. ( CERCARE AVG O FUNZIONI SIMILI ) 
+
+Mostrare il veicolo con il chilometraggio massimo. ( DA SVOLGERE ASSIEME ) 
+
+Elencare le diverse alimentazioni presenti (senza duplicati). ( USARE DISTINT ) 
+
+Contare quanti veicoli sono in riparazione.
 
 
 
