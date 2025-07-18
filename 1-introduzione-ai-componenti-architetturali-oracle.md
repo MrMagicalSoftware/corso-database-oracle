@@ -1,4 +1,5 @@
-L'architettura di Oracle è complessa e altamente scalabile, composta da una serie di componenti che lavorano insieme per garantire l'efficienza, la disponibilità e la sicurezza delle applicazioni. Ecco una panoramica dei principali componenti architetturali di Oracle:
+L'architettura di Oracle è composta da una serie di componenti che lavorano insieme per garantire l'efficienza, la disponibilità e la sicurezza delle applicazioni. 
+
 
 ### 1. **Oracle Database**
 
