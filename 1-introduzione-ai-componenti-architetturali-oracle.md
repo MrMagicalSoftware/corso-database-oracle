@@ -59,4 +59,3 @@ Oracle Net (o **SQL\*Net**) è un sistema di comunicazione di rete che consente 
 
 **Fusion Middleware** è una suite di software che include tecnologie per integrare, gestire e sviluppare applicazioni aziendali. Include strumenti per la gestione delle identità, l'integrazione di applicazioni e la gestione dei processi aziendali.
 
-Questi componenti lavorano insieme per fornire una soluzione scalabile, sicura e ad alta disponibilità per le aziende che utilizzano Oracle.
