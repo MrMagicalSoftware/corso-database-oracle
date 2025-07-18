@@ -54,8 +54,17 @@ NOTA : I NOMI UTENTE IN MAIUSCOLO :
 
 <img width="1907" height="784" alt="Screenshot 2025-07-15 alle 17 28 47" src="https://github.com/user-attachments/assets/5a1fcd0b-9d8a-4e66-a80c-3809daf82a42" />
 
+---
+
+sql plus :
 
 
+per accedere con sql plus : 
+
+
+```
+sqlplus MR/wow123456@127.0.0.1:1521/freepdb1
+```
 
 
 
