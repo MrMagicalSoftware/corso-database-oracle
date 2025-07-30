@@ -35,3 +35,9 @@ Immagina di voler verificare se un server web (ad esempio, `example.com`) è rag
 - **Connessione Riuscita**: Se riesci a connetterti a una porta, significa che il server è attivo e la porta è aperta.
 - **Connessione Fallita**: Se ricevi un messaggio di errore come "Connection refused" o "Could not open connection", significa che la porta è chiusa o il server non è raggiungibile.
 
+
+# come abilitare telnet client su windows ?
+```
+dism /online /Enable-Feature /FeatureName:TelnetClient
+```
+
